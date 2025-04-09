@@ -1,73 +1,169 @@
-# 📦 Projekt Neve
 
-Egy rövid, frappáns leírás a projektről, mit csinál, kinek szól, miért hasznos.
+# 📒 Markdown Cheat Sheet / Sablon Gyűjtemény
 
-## 🚀 Funkciók
+## 🧯 Címsorok
 
-- ✅ Funkció 1 rövid leírása
-- ✅ Funkció 2 rövid leírása
-- ✅ Extra előnyök, érdekességek
+```markdown
+# H1: Nagy címsor
+## H2: Fejezet
+### H3: Alfejezet
+#### H4: Kisebb fejezet
+```
 
-## 📸 Képernyőképek
+## ✍️ Szövegformázás
 
-Ha van:  
-![Screenshot](https://link-a-kephez.png)
+```markdown
+**Félkövér szöveg**
+*Dőlt szöveg*
+~~Áthúzott szöveg~~
+`Egysoros kód kiemelés`
+```
 
-## 🔧 Telepítés
+## 📃 Listák
 
-```bash
-# Klónozd a repót
-git clone https://github.com/felhasznalo/projekt-nev.git
+**Rendezetlen:**
 
-# Lépj be a könyvtárba
-cd projekt-nev
+```markdown
+- Első pont
+- Második pont
+  - Behúzott pont
+```
 
-# Telepítsd a függőségeket
-npm install
+**Számozott:**
 
+```markdown
+1. Első lépés
+2. Második lépés
+3. Harmadik lépés
+```
 
+## 💡 Idézetek
 
+```markdown
+> Ez egy idézet, megjegyzés vagy kiemelés.
+```
 
+## 🚧 Elválasztó vonal
 
+```markdown
+---
+```
 
-# 🎨 Dizájn & Tervezés
+## 📾 Táblázatok
 
-## 🖌️ UI/UX Tervezés
+**Alap táblázat:**
 
-A teljes felhasználói felületet Figma segítségével terveztem:
+```markdown
+| Fejléc 1 | Fejléc 2 | Fejléc 3 |
+|----------|----------|----------|
+| Tartalom 1 | Tartalom 2 | Tartalom 3 |
+| Sor 2, oszlop 1 | Sor 2, oszlop 2 | Sor 2, oszlop 3 |
+```
 
-👉 [Figma terv megtekintése](https://figma.com/file/valami-link)
+**Igazítás:**
 
-## 🗄️ Adatbázis Modell
+```markdown
+| Balra igazított | Középre igazított | Jobbra igazított |
+|:----------------|:----------------:|----------------:|
+| Tartalom | Tartalom | Tartalom |
+```
 
-Az adatbázis diagramot a DrawSQL segítségével készítettem:
+**Példa gyakorlatban:**
 
-👉 [DrawSQL diagram megtekintése](https://drawsql.app/valami-link)
-
-## 🧪 API Tesztek
-
-A Postman tesztek publikus linkje:
-
-👉 [Postman Collection megtekintése](https://postman.com/collections/valami-link)
-
-
-
-
-
-
-
-## 🧩 Tervezés & Dokumentáció
-
+```markdown
 | Eszköz | Leírás | Link |
 |--------|---------|------|
 | 🎨 Figma | UI/UX terv | [Megtekintés](https://figma.com/file/valami-link) |
-| 🗄️ DrawSQL | Adatbázis diagram | [Megtekintés](https://drawsql.app/valami-link) |
+| 💄️ DrawSQL | Adatbázis diagram | [Megtekintés](https://drawsql.app/valami-link) |
 | 🧪 Postman | API tesztek | [Megtekintés](https://postman.com/collections/valami-link) |
+```
 
+## 🔗 Linkek
 
+```markdown
+[Link szövege](https://pelda.com)
+```
 
+**Gyakorlati példa:**
 
+```markdown
+👉 [Figma terv megtekintése](https://figma.com/file/valami-link)
+```
 
-[![Figma](https://img.shields.io/badge/Figma-Design-blue)](https://figma.com/file/valami-link)
-[![DrawSQL](https://img.shields.io/badge/DrawSQL-DB%20Schema-orange)](https://drawsql.app/valami-link)
-[![Postman](https://img.shields.io/badge/Postman-API%20Tests-green)](https://postman.com/collections/valami-link)
+## 🗄️ Képek beillesztése
+
+```markdown
+![Alternatív szöveg](https://pelda.com/kep.png)
+```
+
+## 🔥 Badge-ek (GitHub statikus jelvények)
+
+Badge generálás: [https://shields.io/](https://shields.io/)
+
+```markdown
+[![Licence](https://img.shields.io/badge/Licence-MIT-green.svg)](https://opensource.org/licenses/MIT)
+```
+
+## 📦 Kódblokk
+
+**Többsoros kód blokk:**
+
+````markdown
+```bash
+npm install
+npm start
+```
+````
+
+**Szintaxis kiemeléssel:** `bash`, `javascript`, `python`, stb.
+
+## 🌟 Emoji használat
+
+Egyszerűen bemásolod az emojit:
+
+```
+🚀 🎨 🧯 📝 🧪 ✅ ⚙️
+```
+
+Vagy Markdown shortcode:
+
+```
+:rocket: → 🚀
+:checkered_flag: → 🏁
+```
+
+## 🧱 Navigációs lista (Tartalomjegyzék nagy README-hez)
+
+```markdown
+## Tartalomjegyzék
+
+- [Bevezetés](#bevezetés)
+- [Telepítés](#telepítés)
+- [Használat](#használat)
+- [Dokumentáció](#dokumentáció)
+- [Közreműködés](#közreműködés)
+- [Licenc](#licenc)
+```
+
+## 🏒 Projekt szerkezet
+
+```markdown
+├── src/
+│   ├── components/
+│   ├── pages/
+│   └── App.js
+├── package.json
+└── README.md
+```
+
+---
+
+# 🏻 Extra Tipp!
+
+- Badge generálás: [https://shields.io/](https://shields.io/)
+- Emoji keresés: [https://emojipedia.org/](https://emojipedia.org/)
+- Markdown élő nézet: VSCode Markdown Preview plugin
+
+---
+
+Használd ezt a sablont bármikor, ha dokumentációt írsz! 🚀
